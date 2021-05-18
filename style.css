@@ -1,0 +1,127 @@
+ .card {
+                box-shadow: 1px 1px 5px #000;
+                background-color: rgb(158, 240, 176);
+                padding: 30px;
+                border-radius: 15px;
+            }
+            
+            .form {
+                width: 400px;
+                margin: auto;
+                padding-top: 40px;
+            }
+            
+            .card-group {
+                margin-bottom: 20px;
+            }
+            
+            .card-group>label {
+                width: 100px;
+                color: rgb(75, 75, 75);
+                display: block;
+            }
+            
+            #btnSalvar {
+                width: 100%;
+                height: 2.5rem;
+                background-color: rgb(0, 157, 255);
+                color: white;
+                font-weight: lighter;
+                font-size: 20px;
+                border: 0;
+                border-radius: 5px;
+                margin: 1rem 0;
+            }
+            
+            #btnSalvar {
+                width: 100%;
+                height: 2.5rem;
+                background-color: rgb(0, 157, 255);
+                color: white;
+                font-weight: lighter;
+                font-size: 20px;
+                border: 0;
+                border-radius: 5px;
+                margin: 1rem 0;
+            }
+            
+            #btnSalvar:hover {
+                background-image: linear-gradient( to right, #0184a5, #35dcd4);
+            }
+            
+            .input-login:hover {
+                background-image: linear-gradient( to right, #0184a5, #35dcd4);
+            }
+            
+            .glicetec {
+                border-radius: 50px;
+                width: 100px;
+                box-shadow: 0px 0px 5px;
+            }
+            
+            .title {
+                color: rgb(41, 166, 197);
+            }
+            
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                background-color: rgb(242, 247, 248);
+            }
+            
+            p {
+                margin: 0;
+            }
+            
+            .input-login {
+                width: 100%;
+                height: 2.5rem;
+            }
+            
+            .logo {
+                color: #87cefa;
+                font-size: 8rem;
+            }
+            
+            .card-top {
+                text-align: center;
+                padding: 2rem 5rem;
+            }
+            
+            .card-group {
+                padding: 0 2rem;
+            }
+            
+            .link-checkbox {
+                display: flex;
+                justify-content: space-between;
+                padding: 1.5em 2rem 0.5em;
+            }
+            
+            #btnEntrar {
+                width: 100%;
+                height: 2.5rem;
+                background-color: rgb(0, 157, 255);
+                color: white;
+                font-weight: lighter;
+                font-size: 20px;
+                border: 0;
+                border-radius: 5px;
+                margin: 1rem 0;
+            }
+            
+            button {
+                width: 100%;
+                height: 2.5rem;
+                background-color: rgb(0, 157, 255);
+                color: white;
+                font-weight: lighter;
+                font-size: 20px;
+                border: 0;
+                border-radius: 5px;
+                margin: 1rem 0;
+            }
+            
+            button:hover {
+                background-image: linear-gradient( to right, #0184a5, #35dcd4);
+            }
