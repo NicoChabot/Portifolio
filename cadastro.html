@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="database.js"></script>
+    <title>Cadastro
+    </title>
+</head>
+
+<body>
+    <div class="first-column">
+        <h2>Bem vindo de volta</h2>
+        <p>Para usuários antigos</p>
+        <p>Digite suas informações de Login</p>
+        <a href="Login.html">
+            <button>Login</button>
+        </a>
+    </div>
+
+    <form id="Cadastro" class="form ">
+        <div class="card-group">
+            <h2 class=" Title ">Cadastre-se</h2>
+        </div>
+        <div class="social-media ">
+            <a href="https://www.facebook.com/ "><img width="50" src="imgs/face.jpg" alt="facebook"></a>
+            <a href="https://accounts.google.com/signin/v2/identifier?hl=pt-br&flowName=GlifWebSignIn&flowEntry=ServiceLogin "><img width="50" src="imgs/google.jpg" alt=""></a>
+        </div>
+        <div class="card-group ">
+            <label for="email">Email</label>
+            <input type="email " id="email" placeholder="Digite seu email " required>
+        </div>
+        <div class="card-group ">
+            <label for="name ">Usuario</label>
+            <input type="text " id="name " placeholder="Digite seu nome de usuário " required>
+        </div>
+        <div class="card-group ">
+            <label for="password "> Senha</label>
+            <input type="password " id="password" placeholder="Digite sua senha " required>
+        </div>
+        <div class="card-group ">
+
+            <label for="tipo ">Tipo de Diabetes</label>
+            <input type="text " id="tipo" placeholder="Insira o tipo de Diabetes " required>
+        </div>
+        <div class="card-group ">
+            <label for="Freq ">Frequência de medições</label>
+            <input type="text " id="Freq" placeholder="Insira a frequência de medições " required>
+        </div>
+        <div class="card-group ">
+
+            <label for="Idade ">Idade</label>
+            <input type="number " id="Id" placeholder="Digite sua idade " required>
+        </div>
+        <div class="card--group "><label><input type="checkbox">Manter conectado</label></div>
+        <div class="card-group button ">
+            <input type="submit" value="Salvar" id="btnSalvar" />
+        </div>
+    </form>
+    </div>
+    </div>
+</body>
+
+</html>
